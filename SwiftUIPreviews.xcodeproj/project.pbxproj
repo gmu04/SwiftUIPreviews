@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F76AF281278ED91C00091259 /* XcodePreviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AF280278ED91C00091259 /* XcodePreviewsApp.swift */; };
+		F76AF281278ED91C00091259 /* SwiftUIPreviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AF280278ED91C00091259 /* SwiftUIPreviewsApp.swift */; };
 		F76AF283278ED91C00091259 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AF282278ED91C00091259 /* ContentView.swift */; };
 		F76AF285278ED91E00091259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76AF284278ED91E00091259 /* Assets.xcassets */; };
 		F76AF288278ED91E00091259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76AF287278ED91E00091259 /* Preview Assets.xcassets */; };
@@ -21,8 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F76AF27D278ED91C00091259 /* XcodePreviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodePreviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F76AF280278ED91C00091259 /* XcodePreviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodePreviewsApp.swift; sourceTree = "<group>"; };
+		F76AF27D278ED91C00091259 /* SwiftUIPreviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPreviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76AF280278ED91C00091259 /* SwiftUIPreviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPreviewsApp.swift; sourceTree = "<group>"; };
 		F76AF282278ED91C00091259 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F76AF284278ED91E00091259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76AF287278ED91E00091259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		F76AF274278ED91C00091259 = {
 			isa = PBXGroup;
 			children = (
-				F76AF27F278ED91C00091259 /* XcodePreviews */,
+				F76AF27F278ED91C00091259 /* SwiftUIPreviews */,
 				F76AF27E278ED91C00091259 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,19 +57,19 @@
 		F76AF27E278ED91C00091259 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F76AF27D278ED91C00091259 /* XcodePreviews.app */,
+				F76AF27D278ED91C00091259 /* SwiftUIPreviews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F76AF27F278ED91C00091259 /* XcodePreviews */ = {
+		F76AF27F278ED91C00091259 /* SwiftUIPreviews */ = {
 			isa = PBXGroup;
 			children = (
 				F76AF292278EE18300091259 /* AppDrawer */,
 				F76AF29D278EFB7800091259 /* ViewControllers */,
 				F76AF290278EE15D00091259 /* Views */,
 			);
-			path = XcodePreviews;
+			path = SwiftUIPreviews;
 			sourceTree = "<group>";
 		};
 		F76AF286278ED91E00091259 /* Preview Content */ = {
@@ -96,7 +96,7 @@
 		F76AF292278EE18300091259 /* AppDrawer */ = {
 			isa = PBXGroup;
 			children = (
-				F76AF280278ED91C00091259 /* XcodePreviewsApp.swift */,
+				F76AF280278ED91C00091259 /* SwiftUIPreviewsApp.swift */,
 				F76AF284278ED91E00091259 /* Assets.xcassets */,
 				F76AF286278ED91E00091259 /* Preview Content */,
 			);
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F76AF27C278ED91C00091259 /* XcodePreviews */ = {
+		F76AF27C278ED91C00091259 /* SwiftUIPreviews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F76AF28B278ED91E00091259 /* Build configuration list for PBXNativeTarget "XcodePreviews" */;
+			buildConfigurationList = F76AF28B278ED91E00091259 /* Build configuration list for PBXNativeTarget "SwiftUIPreviews" */;
 			buildPhases = (
 				F76AF279278ED91C00091259 /* Sources */,
 				F76AF27A278ED91C00091259 /* Frameworks */,
@@ -127,9 +127,9 @@
 			);
 			dependencies = (
 			);
-			name = XcodePreviews;
+			name = SwiftUIPreviews;
 			productName = XcodePreviews;
-			productReference = F76AF27D278ED91C00091259 /* XcodePreviews.app */;
+			productReference = F76AF27D278ED91C00091259 /* SwiftUIPreviews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F76AF278278ED91C00091259 /* Build configuration list for PBXProject "XcodePreviews" */;
+			buildConfigurationList = F76AF278278ED91C00091259 /* Build configuration list for PBXProject "SwiftUIPreviews" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -160,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F76AF27C278ED91C00091259 /* XcodePreviews */,
+				F76AF27C278ED91C00091259 /* SwiftUIPreviews */,
 			);
 		};
 /* End PBXProject section */
@@ -189,7 +189,7 @@
 				F76AF29F278EFB8F00091259 /* HomeViewController.swift in Sources */,
 				F76AF296278EE35B00091259 /* SmileCellView.swift in Sources */,
 				F76AF283278ED91C00091259 /* ContentView.swift in Sources */,
-				F76AF281278ED91C00091259 /* XcodePreviewsApp.swift in Sources */,
+				F76AF281278ED91C00091259 /* SwiftUIPreviewsApp.swift in Sources */,
 				F76AF294278EE30000091259 /* DarkModeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XcodePreviews/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPreviews/Preview Content\"";
 				DEVELOPMENT_TEAM = 85373584HZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -334,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.XcodePreviews;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.SwiftUIPreviews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -349,7 +349,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XcodePreviews/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPreviews/Preview Content\"";
 				DEVELOPMENT_TEAM = 85373584HZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -363,7 +363,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.XcodePreviews;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokhanmutlu.example.SwiftUIPreviews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -374,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F76AF278278ED91C00091259 /* Build configuration list for PBXProject "XcodePreviews" */ = {
+		F76AF278278ED91C00091259 /* Build configuration list for PBXProject "SwiftUIPreviews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F76AF289278ED91E00091259 /* Debug */,
@@ -383,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F76AF28B278ED91E00091259 /* Build configuration list for PBXNativeTarget "XcodePreviews" */ = {
+		F76AF28B278ED91E00091259 /* Build configuration list for PBXNativeTarget "SwiftUIPreviews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F76AF28C278ED91E00091259 /* Debug */,

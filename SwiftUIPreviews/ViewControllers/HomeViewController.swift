@@ -1,6 +1,6 @@
 //
 //  HomeViewController.swift
-//  XcodePreviews
+//  SwiftUIPreviews
 //
 //  Created by Gokhan Mutlu on 12.01.2022.
 //
