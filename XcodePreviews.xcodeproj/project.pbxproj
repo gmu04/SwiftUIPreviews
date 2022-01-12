@@ -11,6 +11,13 @@
 		F76AF283278ED91C00091259 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AF282278ED91C00091259 /* ContentView.swift */; };
 		F76AF285278ED91E00091259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76AF284278ED91E00091259 /* Assets.xcassets */; };
 		F76AF288278ED91E00091259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76AF287278ED91E00091259 /* Preview Assets.xcassets */; };
+		F76AF28F278EE0BA00091259 /* ContentSizeCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AF28E278EE0BA00091259 /* ContentSizeCategoryView.swift */; };
+		F76AF294278EE30000091259 /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AF293278EE30000091259 /* DarkModeView.swift */; };
+		F76AF296278EE35B00091259 /* SmileCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AF295278EE35B00091259 /* SmileCellView.swift */; };
+		F76AF298278EE51300091259 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AF297278EE51300091259 /* DevicesView.swift */; };
+		F76AF29A278EF98F00091259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76AF299278EF98F00091259 /* Main.storyboard */; };
+		F76AF29C278EFB1F00091259 /* HomeViewController_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AF29B278EFB1F00091259 /* HomeViewController_Previews.swift */; };
+		F76AF29F278EFB8F00091259 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AF29E278EFB8F00091259 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		F76AF282278ED91C00091259 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F76AF284278ED91E00091259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76AF287278ED91E00091259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F76AF28E278EE0BA00091259 /* ContentSizeCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSizeCategoryView.swift; sourceTree = "<group>"; };
+		F76AF293278EE30000091259 /* DarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeView.swift; sourceTree = "<group>"; };
+		F76AF295278EE35B00091259 /* SmileCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileCellView.swift; sourceTree = "<group>"; };
+		F76AF297278EE51300091259 /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		F76AF299278EF98F00091259 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F76AF29B278EFB1F00091259 /* HomeViewController_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController_Previews.swift; sourceTree = "<group>"; };
+		F76AF29E278EFB8F00091259 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +65,9 @@
 		F76AF27F278ED91C00091259 /* XcodePreviews */ = {
 			isa = PBXGroup;
 			children = (
-				F76AF280278ED91C00091259 /* XcodePreviewsApp.swift */,
-				F76AF282278ED91C00091259 /* ContentView.swift */,
-				F76AF284278ED91E00091259 /* Assets.xcassets */,
-				F76AF286278ED91E00091259 /* Preview Content */,
+				F76AF292278EE18300091259 /* AppDrawer */,
+				F76AF29D278EFB7800091259 /* ViewControllers */,
+				F76AF290278EE15D00091259 /* Views */,
 			);
 			path = XcodePreviews;
 			sourceTree = "<group>";
@@ -65,6 +78,38 @@
 				F76AF287278ED91E00091259 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F76AF290278EE15D00091259 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF282278ED91C00091259 /* ContentView.swift */,
+				F76AF297278EE51300091259 /* DevicesView.swift */,
+				F76AF28E278EE0BA00091259 /* ContentSizeCategoryView.swift */,
+				F76AF293278EE30000091259 /* DarkModeView.swift */,
+				F76AF29B278EFB1F00091259 /* HomeViewController_Previews.swift */,
+				F76AF295278EE35B00091259 /* SmileCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F76AF292278EE18300091259 /* AppDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF280278ED91C00091259 /* XcodePreviewsApp.swift */,
+				F76AF284278ED91E00091259 /* Assets.xcassets */,
+				F76AF286278ED91E00091259 /* Preview Content */,
+			);
+			name = AppDrawer;
+			sourceTree = "<group>";
+		};
+		F76AF29D278EFB7800091259 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F76AF299278EF98F00091259 /* Main.storyboard */,
+				F76AF29E278EFB8F00091259 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76AF29A278EF98F00091259 /* Main.storyboard in Resources */,
 				F76AF288278ED91E00091259 /* Preview Assets.xcassets in Resources */,
 				F76AF285278ED91E00091259 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76AF298278EE51300091259 /* DevicesView.swift in Sources */,
+				F76AF29C278EFB1F00091259 /* HomeViewController_Previews.swift in Sources */,
+				F76AF28F278EE0BA00091259 /* ContentSizeCategoryView.swift in Sources */,
+				F76AF29F278EFB8F00091259 /* HomeViewController.swift in Sources */,
+				F76AF296278EE35B00091259 /* SmileCellView.swift in Sources */,
 				F76AF283278ED91C00091259 /* ContentView.swift in Sources */,
 				F76AF281278ED91C00091259 /* XcodePreviewsApp.swift in Sources */,
+				F76AF294278EE30000091259 /* DarkModeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
