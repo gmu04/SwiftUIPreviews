@@ -1,3 +1,4 @@
 # XcodePreviews
 
-It is demo app for presenting SwiftUI PreviewProvider's capabilities.
+It is a demo app for presenting different uses of SwiftUI's PreviewProvider.
+
